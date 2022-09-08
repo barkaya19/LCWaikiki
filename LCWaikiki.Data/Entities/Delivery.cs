@@ -1,0 +1,11 @@
+﻿namespace LCWaikiki.Data.Entities
+{
+    public class Delivery
+    {
+        public int Id { get; set; }
+        public string DeliveryPerson { get; set; }
+        public DateTime DeliveryDate { get; set; }
+        public string Plate { get; set; }
+        
+    }
+}

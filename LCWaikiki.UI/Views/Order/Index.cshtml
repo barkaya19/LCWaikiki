@@ -1,0 +1,27 @@
+﻿@using LCWaikiki.Data.Entities
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+@model List<Order>
+
+
+    <table class="table table-striped">
+    <thead>
+        <tr>
+            <td>ID</td>       
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                
+            </tr>
+        }
+    </tbody>
+</table>
+
